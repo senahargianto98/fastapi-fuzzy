@@ -20,6 +20,7 @@ def get_all(db: Session):
         .replace("'", '')
         .replace("'", ''),
         ["sena, adalah bla bla bla bla","febrisena, adalah blablablabla"])))
+        
         .replace('(', '').replace(')', '')
         .replace("'", '').replace("'", '')
         for bean in blogs2
